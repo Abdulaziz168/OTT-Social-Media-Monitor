@@ -1,0 +1,100 @@
+{
+  "accounts": [
+    {
+      "id": "itv_uz",
+      "username": "itv.uz",
+      "url": "https://www.instagram.com/itv.uz/",
+      "name": "ITV Uzbekistan",
+      "category": "OTT",
+      "enabled": true
+    },
+    {
+      "id": "salomtvuz",
+      "username": "salomtvuz",
+      "url": "https://www.instagram.com/salomtvuz/",
+      "name": "Salom TV",
+      "category": "OTT",
+      "enabled": true
+    },
+    {
+      "id": "cinerama_uz",
+      "username": "cinerama.uz",
+      "url": "https://www.instagram.com/cinerama.uz/",
+      "name": "Cinerama",
+      "category": "OTT",
+      "enabled": true
+    },
+    {
+      "id": "frame_mediauz",
+      "username": "frame.mediauz",
+      "url": "https://www.instagram.com/frame.mediauz/",
+      "name": "Frame Media",
+      "category": "OTT",
+      "enabled": true
+    },
+    {
+      "id": "kinom_uzbekistan",
+      "username": "kinom_uzbekistan",
+      "url": "https://www.instagram.com/kinom_uzbekistan/",
+      "name": "Kinom Uzbekistan",
+      "category": "OTT",
+      "enabled": true
+    },
+    {
+      "id": "allplay_official",
+      "username": "allplay_official",
+      "url": "https://www.instagram.com/allplay_official/",
+      "name": "AllPlay",
+      "category": "OTT",
+      "enabled": true
+    },
+    {
+      "id": "biztvuz",
+      "username": "biztvuz",
+      "url": "https://www.instagram.com/biztvuz/",
+      "name": "BizTV",
+      "category": "OTT",
+      "enabled": true
+    },
+    {
+      "id": "splay_uz",
+      "username": "splay.uz",
+      "url": "https://www.instagram.com/splay.uz/",
+      "name": "SPlay",
+      "category": "OTT",
+      "enabled": true
+    },
+    {
+      "id": "clicktv_uz",
+      "username": "clicktv.uz",
+      "url": "https://www.instagram.com/clicktv.uz/",
+      "name": "ClickTV",
+      "category": "OTT",
+      "enabled": true
+    },
+    {
+      "id": "tvcom_uz_milliy",
+      "username": "tvcom.uz_milliy",
+      "url": "https://www.instagram.com/tvcom.uz_milliy/",
+      "name": "TV.com Milliy",
+      "category": "OTT",
+      "enabled": true
+    },
+    {
+      "id": "yangitv_rasmiy",
+      "username": "yangitv_rasmiy",
+      "url": "https://www.instagram.com/yangitv_rasmiy/",
+      "name": "Yangi TV",
+      "category": "OTT",
+      "enabled": true
+    },
+    {
+      "id": "riyaplay_uz",
+      "username": "riyaplay.uz",
+      "url": "https://www.instagram.com/riyaplay.uz/",
+      "name": "RiyaPlay",
+      "category": "OTT",
+      "enabled": true
+    }
+  ]
+}
