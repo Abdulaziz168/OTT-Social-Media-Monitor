@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: ott-monitor
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - SCHEDULE_TIME=${SCHEDULE_TIME:-09:00}
+      - DATABASE_PATH=/app/data/instagram_monitor.db
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+    restart: unless-stopped
+    networks:
+      - ott-network
+
+  api:
+    build: .
+    container_name: ott-monitor-api
+    command: python -m instagram_monitor.api.main
+    ports:
+      - "8000:8000"
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - DATABASE_PATH=/app/data/instagram_monitor.db
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    depends_on:
+      - app
+    networks:
+      - ott-network
+
+networks:
+  ott-network:
+    driver: bridge
